@@ -1,0 +1,38 @@
+header {
+   padding: 200px 0;
+   background: rgb(189, 177, 243);
+   border-radius: 0px 0px 30px 30px;
+   border-bottom: 10px solid #78a3ad;
+   height: 200px;
+
+}
+
+
+
+.crug {
+
+   height: 15px;
+   width: 15px;
+   background: red;
+   border-radius: 50%;
+   border: 2px solid black;
+   margin-top: 5px;
+   margin-left: 3px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.infotext {
+   border: 7px solid #8a7297;
+   font-size: 20px;
+   border-radius: 15px;
+   margin-left: 5px;
+   margin-top: 10px;
+   position: relative;
+   padding-left: 15px;
+   padding-top: 15px;
+   box-shadow: 5px 5px 5px 5px rgb(131, 130, 130);
+
+
+}

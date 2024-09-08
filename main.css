@@ -1,0 +1,314 @@
+body {
+   background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1614773039_129-p-nezhnii-fon-dlya-saita-142.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+header,
+footer,
+section {
+   padding: 100px 0;
+}
+
+header {
+   padding: 200px 0;
+   background: rgb(189, 177, 243);
+   border-radius: 0px 0px 30px 30px;
+   border-bottom: 10px solid #78a3ad;
+   height: 300px;
+
+}
+
+#hi {
+   font-size: 17px;
+   padding: 10px 25px;
+   border-radius: 30px;
+   background-image: linear-gradient(rgb(211, 186, 243), rgb(251, 209, 255));
+   border: 2px solid rgb(50, 50, 50);
+   border-bottom: 5px solid rgb(50, 50, 50);
+   box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+   transform: translate(0, -3px);
+   cursor: pointer;
+   transition: 0.2s;
+   transition-timing-function: linear;
+   margin-top: 60px;
+
+}
+
+#hi:active {
+   transform: translate(0, 0);
+   border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+.blok {
+
+   background: white;
+
+
+   box-shadow: 10px 10px 10px 10px #6d6b6b;
+
+   border: 10px solid #8a7297;
+   border-radius: 20px;
+
+}
+
+.cont {
+   height: 300px;
+   width: 100%;
+   text-align: center;
+   color: #000000;
+   font-size: 20px;
+   display: grid;
+}
+
+.yes {
+   height: 30px;
+   width: 60px;
+   border: 2px solid black;
+   border-radius: 5px;
+   border-bottom: 4px solid black;
+   transform: translate(0, -3px);
+   transition: 0.2s;
+   cursor: pointer;
+   transition-timing-function: linear;
+   background-color: #e3aeff;
+   font-size: 16px;
+   margin: auto;
+   ;
+
+}
+
+.no {
+   height: 30px;
+   width: 60px;
+   border: 2px solid black;
+   border-radius: 5px;
+   border-bottom: 4px solid black;
+   transform: translate(0, -3px);
+   transition: 0.2s;
+   cursor: pointer;
+   transition-timing-function: linear;
+   background-color: #e3aeff;
+   font-size: 16px;
+   margin: auto;
+
+}
+
+.yes:active {
+   border-bottom: 2px solid black;
+   transform: translate(0, 0);
+}
+
+.no:active {
+   border-bottom: 2px solid black;
+   transform: translate(0, 0);
+}
+
+.line {
+   width: 100%;
+   height: 5px;
+   background-color: #78a3ad;
+   border-bottom: 2px solid silver;
+   margin-top: 35px;
+
+}
+
+.itd_2 {
+   position: relative;
+   margin-top: -130px;
+}
+
+#info {
+   height: 30px;
+
+   background: #e3aeff;
+   border: 2px solid #6d00b6;
+   border-bottom: 5px solid #6d00b6;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: translate(0, 0);
+   transition: 0.2s;
+}
+
+#info:active {
+   border-bottom: 2px solid #6d00b6;
+   transform: translate(0, 0);
+}
+
+.itd_img {
+   display: grid;
+   border: 2px solid rgb(121, 121, 121);
+   border-radius: 15px;
+   margin: auto;
+}
+
+.itd_niz {
+   font-size: 20px;
+}
+
+.smotr {
+   margin-top: -200px;
+   font-size: 24px;
+}
+
+.primer {
+   font-size: 20px;
+}
+
+.crug {
+
+   height: 15px;
+   width: 15px;
+   background: red;
+   border-radius: 50%;
+   border: 2px solid black;
+   margin-top: 5px;
+   margin-left: 3px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.infotext {
+   border: 5px solid #6d6b6b;
+   font-size: 20px;
+   border-radius: 15px;
+   margin-left: 5px;
+   margin-top: 10px;
+   position: relative;
+   padding-left: 15px;
+   padding-top: 15px;
+
+
+}
+
+.urok26 {
+   margin-top: -200px;
+}
+
+.feerf {
+   font-size: 20px;
+}
+
+.blok5_text {
+   margin-top: -200px;
+}
+
+.infotextend {
+   border: 5px solid #6d6b6b;
+   font-size: 20px;
+   border-radius: 15px;
+   margin-left: 5px;
+   margin-top: 80px;
+   position: relative;
+   padding-left: 15px;
+   padding-top: 15px;
+}
+
+.end {
+   margin-top: -200px;
+}
+
+.more {
+   font-size: 16px;
+   height: 30px;
+   margin-top: 20px;
+
+
+   width: 250px;
+
+   background: #e3aeff;
+   border: 2px solid #6d00b6;
+   border-bottom: 5px solid #6d00b6;
+   border-radius: 10px;
+   cursor: pointer;
+   transform: translate(0, 0);
+   transition: 0.2s;
+}
+
+.more:active {
+   border-bottom: 2px solid #6d00b6;
+   transform: translate(0, 0);
+
+}
+
+#thank {
+
+   height: 70px;
+   width: 200px;
+   border: 5px solid #6d00b6;
+   border-radius: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -100px;
+   font-size: 32px;
+   padding: 15px;
+   background: #ff9fea;
+   transform: translate(0, 0);
+   transition: 0.3s;
+}
+
+#thank:hover {
+   background: #e3aeff;
+
+}
+
+.pend {
+   margin-top: -20px;
+   font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conew {
+   color: #6d6b6b;
+  
+   font-size: 20px;
+   
+
+}
+
+.conew2 {
+   color: #6d6b6b;
+   
+   font-size: 20px;
+  
+}
+
+
+
+
+footer {
+   height: 300px;
+   border-radius: 30px 30px 0px 0px;
+   background-color: rgb(189, 177, 243);
+   position: relative;
+   border-top: 10px solid #78a3ad;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#vk,
+#tg {
+   cursor: pointer;
+   margin: 0 10px;
+   margin-top: 10px;
+   /* Добавляем небольшой отступ между иконками */
+}
